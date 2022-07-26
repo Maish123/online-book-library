@@ -3,24 +3,26 @@
 
  function NavBar(){
     return( 
-        <nav className="navbar navbar-expand-lg bg-success">
-            <div className="container-fluid">
-            <ul className="navbar-nav">
-                <li className="nav-item">
-                    <Link to="/" className="nav-link">HOME</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/About" className="nav-link">ABOUT</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/Info" className="nav-link">INFO</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/Search" className="nav-link">SEARCH</Link>
-                </li>
-            </ul>
-            </div>
-        </nav>
+        <div>
+            <nav className="navbar navbar-expand-lg bg-success">
+                <div className="container-fluid">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link">HOME</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/about" className="nav-link">ABOUT</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/info" className="nav-link">INFO</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/search" className="nav-link">SEARCH</Link>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
     )
  }
 
